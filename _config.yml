@@ -1,0 +1,41 @@
+#########################################
+# --- Default Options for All Pages --- #
+#########################################
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "default"
+      permalink: blog/:slug
+      sections: [post]
+  - scope:
+      path: ""
+      type: "category"
+    values:
+      layout: "default"
+      sections: [category]
+
+#######################
+# --- Collections --- #
+#######################
+
+collections:
+  category:
+    output: true
+    permalink: category/:name
+
+###################
+# --- Plugins --- #
+###################
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-remote-theme
+
+########################
+# --- Custom Theme --- #
+########################
+
+remote_theme: Dean-J-K-James/dodo-web-engine-jekyll-theme

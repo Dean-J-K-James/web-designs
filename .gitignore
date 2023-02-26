@@ -1,0 +1,9 @@
+_site/
+node_modules/
+.bundle
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+.vscode
+*.gem
+Gemfile.lock

@@ -1,0 +1,10 @@
+{% include secthead.html text="Frequently Asked Questions" %}
+{% include subtitle.html text="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium." %}
+<div class="grid grid-cols-4 lg:grid-cols-8 gap-8">
+    {% for post in site.data.faq %}
+    <article class="flex flex-col col-span-4 gap-4 p-4 bg-cell rounded-lg">
+        <h4>{{ post.q }}</h4>
+        <p>{{ post.a }}</p>
+    </article>
+    {% endfor %}
+</div>

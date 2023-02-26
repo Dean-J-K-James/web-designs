@@ -1,0 +1,8 @@
+{% include secthead.html text="All Posts" %}
+{% include subtitle.html text="Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+laudantium." %}
+<div class="grid grid-cols-4 md:grid-cols-8 lg:grid-cols-12 gap-8">
+    {% for post in site.posts offset: 1 %}
+    {% include card.html post=post %}
+    {% endfor %}
+</div>

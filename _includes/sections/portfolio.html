@@ -1,0 +1,5 @@
+<div class="grid grid-cols-4 md:grid-cols-8 lg:grid-cols-12 gap-2 md:gap-4 lg:gap-8">
+    {% for post in site.posts %}
+    <img class="col-span-4 rounded-lg aspect-square object-cover" src="/assets/images{{ post.url }}/banner.png">
+    {% endfor %}
+</div>

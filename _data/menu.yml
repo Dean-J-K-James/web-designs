@@ -1,0 +1,11 @@
+- name: Category
+  type: menu
+  link: /category/category1
+
+- name: Portfolio
+  type: menu
+  link: /portfolio
+
+- name: About Me
+  type: primary
+  link: /about-me

@@ -1,0 +1,15 @@
+<div class="grid grid-cols-12 bg-cell rounded-lg overflow-hidden">
+    <article class="col-span-6 flex flex-col gap-4 grow p-4">
+        <div class="grow"></div>
+        <h4>{{ include.post.title }}</h4>
+        {% assign date = include.post.date | date: "%-d %B %Y" %}
+        {% include subtitle.html text=date %}
+        <p class="line-clamp-2">{{ include.post.description }}</p>
+        <div class="flex flex-row leading-8 text-xs">
+            {% include button.html link=post.url name="Learn More" style="primary" %}
+        </div>
+        <div class="grow"></div>
+        <div class="grow"></div>
+    </article>
+    <img class="col-span-6" src="/assets/images{{ include.post.url }}/banner.png">
+</div>

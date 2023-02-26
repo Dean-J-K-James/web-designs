@@ -1,0 +1,22 @@
+{% include sectback.html colour="bg-white" %}
+
+{% assign title = 'Build a <span class="text-primary">Responsive</span> Website to Show Off Your Business to The <span
+    class="text-primary">World</span>' %}
+
+{% assign descr = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat." %}
+
+<div class="grid grid-cols-6 md:grid-cols-12 gap-8">
+    <article class="col-span-6 flex flex-col items-start gap-8 justify-center">
+        {% include secthead.html text=title %}
+        <div class="flex flex-row leading-8 gap-4">
+            {% for item in site.data.social-media %}
+            {% include icon.html name=item.name style='secondary' %}
+            {% endfor %}
+        </div>
+        <p class="line-clamp-4">{{ descr }}</p>
+        {% include button.html link="/introduction" name="Learn More" style="primary" %}
+    </article>
+    <img class="col-span-6 rounded-lg aspect-square object-cover" src="/assets/images/introduction/banner.png">
+</div>
