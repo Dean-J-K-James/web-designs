@@ -1,11 +1,11 @@
-- name: Category
+- name: Recipes
   type: menu
-  link: /category/category1
+  link: /cards
 
-- name: Portfolio
+- name: Contact
   type: menu
-  link: /portfolio
+  link: /
 
-- name: About Me
+- name: About Us
   type: primary
-  link: /about-me
+  link: /blog/article-4

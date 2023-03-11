@@ -1,7 +1,6 @@
-{% include sectback.html colour="bg-white" %}
 
 <div class="slick">
-    {% for post in site.posts limit: 4 %}
+    {% for post in site.posts %}
     <img class="rounded-lg mx-4" src="/assets/images{{ post.url }}/banner.png">
     {% endfor %}
 </div>

@@ -15,7 +15,8 @@ defaults:
       type: "category"
     values:
       layout: "default"
-      sections: [category]
+      sections: [list-category]
+      card: card-3
 
 #######################
 # --- Collections --- #

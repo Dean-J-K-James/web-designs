@@ -3,5 +3,6 @@ title:       Portfolio
 description: Portfolio
 permalink:   /portfolio
 layout:      default
-sections:    [portfolio]
+sections:    [list-all]
+card:        card-4
 ---
