@@ -1,0 +1,7 @@
+<article class="flex flex-col col-span-4 gap-4 p-4 items-start bg-white rounded-lg">
+    <h4>{{ include.post.title }}</h4>
+    {% assign date = include.post.date | date: "%-d %B %Y" %}
+    <h6>{{ date }}</h6>
+    <p class="line-clamp-2 text-left">{{ include.post.description }}</p>
+    {% include button.html link=post.url name="Learn More" style="brand" %}
+</article>

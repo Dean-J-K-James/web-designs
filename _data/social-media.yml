@@ -1,15 +1,19 @@
 - name: <i class="fa-brands fa-twitter fa-lg"></i>
+  mode: icon
   type: secondary
   link: https://twitter.com
 
 - name: <i class="fa-brands fa-youtube fa-lg"></i>
+  mode: icon
   type: secondary
   link: https://www.youtube.com
 
 - name: <i class="fa-brands fa-github fa-lg"></i>
+  mode: icon
   type: secondary
   link: https://github.com
 
 - name: <i class="fa-brands fa-linkedin fa-lg"></i>
+  mode: icon
   type: secondary
   link: https://www.linkedin.com

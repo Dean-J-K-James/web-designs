@@ -1,0 +1,10 @@
+<div class="flex flex-col sm:flex-row bg-white rounded-lg overflow-hidden">
+    <article class="flex flex-col gap-8 items-start justify-center p-8  basis-1/2">
+        <h1>{{ include.post.title }}</h1>
+        {% assign date = include.post.date | date: "%-d %B %Y" %}
+        <h6>{{ date }}</h6>
+        <p class="line-clamp-4">{{ include.post.description }}</p>
+        {% include button.html link=post.url name="Learn More" style="brand" %}
+    </article>
+    <img class="object-cover basis-1/2 min-w-0" src="/assets/images{{ include.post.url }}/banner.png">
+</div>

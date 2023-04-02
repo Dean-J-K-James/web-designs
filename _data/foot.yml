@@ -1,3 +1,4 @@
-- name: About Us
-  type: foot
+- name: About
+  mode: button
+  type: light
   link: /blog/article-4

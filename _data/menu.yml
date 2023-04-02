@@ -1,11 +1,19 @@
-- name: Recipes
-  type: menu
+- name: Articles
+  mode: button
+  type: light
   link: /cards
 
-- name: Contact
-  type: menu
-  link: /
+- name: Support
+  mode: button
+  type: light
+  link: /blog/article-2
 
-- name: About Us
-  type: primary
+- name: Contact
+  mode: button
+  type: light
+  link: /blog/article-3
+
+- name: About
+  mode: button
+  type: brand
   link: /blog/article-4

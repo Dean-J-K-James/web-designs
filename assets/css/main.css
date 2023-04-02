@@ -2,22 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-h1 { @apply text-h1 font-bold text-4xl leading-[3.5rem] }
-h2 { @apply text-h2 font-bold text-3xl leading-[2.75rem] }
-h3 { @apply text-h3 font-bold text-xl leading-8 }
-h4 { @apply text-h4 font-bold text-xl }
-h5 { @apply text-h5 font-bold text-base }
-h6 { @apply text-h6 text-xs }
+h1 { @apply text-slate-800 font-bold text-4xl leading-[3.5rem] }
+h2 { @apply text-blue-900 font-bold text-2xl leading-[2.75rem] }
+h3 { @apply text-blue-900 font-bold text-xl leading-8 }
+h4 { @apply text-slate-700 font-bold text-xl }
+h5 { @apply text-blue-900 font-bold text-base }
+h6 { @apply text-neutral-400 text-xs }
 
-article p              { @apply font-text text-p text-[13px] leading-6 text-justify }
-article ul, article ol { @apply font-text text-p text-[13px] leading-6 text-justify pl-4 list-inside }
+article p              { @apply font-text text-neutral-600 text-[13px] leading-6 text-justify }
+article ul, article ol { @apply font-text text-neutral-600 text-[13px] leading-6 text-justify pl-4 list-inside }
 
-article a { @apply text-a hover:underline }
+article a { @apply text-brand hover:underline }
 
 article ul { @apply list-disc }
 article ol { @apply list-decimal }
 
-article blockquote p { @apply text-subtitle text-xs text-center }
+article blockquote p { @apply text-neutral-400 text-xs text-center }
 
 article img { @apply mx-auto }
 

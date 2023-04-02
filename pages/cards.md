@@ -1,8 +1,9 @@
 ---
 title:       Cards
-description: Cards
+description: no-description
 permalink:   /cards
-layout:      default
-sections:    [list-all]
 card:        card-1
+struct:
+    - type: layout-one-column
+      page: [card-list]
 ---

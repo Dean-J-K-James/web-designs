@@ -5,18 +5,24 @@
 defaults:
   - scope:
       path: ""
+    values:
+      layout: default
+  - scope:
+      path: ""
       type: "posts"
     values:
-      layout: "default"
+      struct:
+          - type: layout-one-column
+            page: [post-title, banner-rounded, post-content]
       permalink: blog/:slug
-      sections: [post]
   - scope:
       path: ""
       type: "category"
     values:
-      layout: "default"
-      sections: [list-category]
       card: card-3
+      struct:
+          - type: layout-one-column
+            page: [card-list]
 
 #######################
 # --- Collections --- #

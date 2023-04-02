@@ -1,0 +1,3 @@
+- make the contact us page a post.
+- posts just make everything easier.
+- make it so any post without a tag does not get shown in the all-cards section page.
